@@ -1,0 +1,69 @@
+CRITICAL - 2021-08-02 07:40:28 --> Undefined property: App\Controllers\Topic::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 12)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-02 07:42:33 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 07:42:36 --> view(): Argument #2 ($data) must be of type array, string given, called in /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php on line 17
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(17): view('basic/get', '2')
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get('2')
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-02 07:42:56 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 07:45:40 --> view(): Argument #2 ($data) must be of type array, string given, called in /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php on line 17
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(17): view('basic/get', '2')
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get('2')
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-02 07:46:07 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/get.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/get', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(17): view('basic/get')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get('2')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 07:46:08 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/get.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/get', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(17): view('basic/get')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get('2')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 07:46:09 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}

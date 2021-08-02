@@ -1,0 +1,164 @@
+CRITICAL - 2021-08-01 01:31:23 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 10)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:06:31 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 10)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:06:42 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:06:42 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:07:38 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:07:45 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:10:17 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 14)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:11:09 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 14)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:11:10 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 14)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-01 05:11:12 --> Undefined variable $welecome
+#0 /Library/WebServer/Documents/phpRoot/app/Views/userView.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('userView', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(24): view('userView')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->test()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-01 05:11:15 --> Undefined variable $welecome
+#0 /Library/WebServer/Documents/phpRoot/app/Views/userView.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('userView', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(24): view('userView')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->test()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-01 05:11:40 --> Undefined variable $welecome
+#0 /Library/WebServer/Documents/phpRoot/app/Views/user_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('user_view', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(24): view('user_view')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->test()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-01 05:11:41 --> Undefined variable $welecome
+#0 /Library/WebServer/Documents/phpRoot/app/Views/user_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('user_view', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(24): view('user_view')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->test()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-01 05:11:48 --> Undefined variable $welecome
+#0 /Library/WebServer/Documents/phpRoot/app/Views/user_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('user_view', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(24): view('user_view')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->test()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-01 05:11:51 --> Undefined variable $welecome
+#0 /Library/WebServer/Documents/phpRoot/app/Views/user_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('user_view', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(24): view('user_view')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->test()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-01 05:12:14 --> Undefined variable $welecome
+#0 /Library/WebServer/Documents/phpRoot/app/Views/user_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('user_view', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Home.php(9): view('user_view')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-01 05:47:54 --> Undefined property: App\Controllers\Users::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Users.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 10)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Users->show()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}

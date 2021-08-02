@@ -67,3 +67,483 @@ CRITICAL - 2021-08-02 07:46:09 --> Too few arguments to function App\Controllers
 #3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
 #5 {main}
+CRITICAL - 2021-08-02 07:52:27 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/get.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/get', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(18): view('basic/get', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get('2')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 07:52:27 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/get.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 13)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/get', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(18): view('basic/get', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get('2')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 07:57:05 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:15:28 --> Undefined property: App\Controllers\Topic::$load
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Library/WebSer...', 12)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-02 08:23:01 --> Object of class TopicModel could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:23:01 --> Object of class TopicModel could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:23:22 --> Object of class TopicModel could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:23:22 --> Object of class TopicModel could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:23:23 --> Object of class TopicModel could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:25:57 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:26:12 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:30:04 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:30:33 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:30:34 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:33:13 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:33:13 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:33:24 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:37:13 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:37:14 --> Class "TopicModel" not found
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:39:25 --> Object of class App\Models\TopicModel could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:39:25 --> Object of class App\Models\TopicModel could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 08:44:18 --> Attempt to read property "title" on array
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Library/WebSer...', 19)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-02 08:46:27 --> Attempt to read property "title" on array
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Library/WebSer...', 19)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-02 08:46:28 --> Attempt to read property "title" on array
+#0 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Library/WebSer...', 19)
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#3 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#6 {main}
+CRITICAL - 2021-08-02 08:59:17 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 08:59:18 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 08:59:56 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 08:59:57 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 08:59:57 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 08:59:57 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:00:38 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 09:01:06 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 09:01:07 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 09:01:08 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:01:10 --> Undefined variable $id
+#0 /Library/WebServer/Documents/phpRoot/app/Views/basic/topic.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('basic/topic', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Topic.php(19): view('basic/topic', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:01:22 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 09:03:26 --> Too few arguments to function App\Controllers\Topic::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Topic->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topic))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 09:08:18 --> Too few arguments to function App\Controllers\Board::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 09:08:59 --> Too few arguments to function App\Controllers\Board::get(), 0 passed in /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get()
+#1 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#2 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#5 {main}
+CRITICAL - 2021-08-02 09:09:02 --> Undefined variable $topicList
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 4)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardList', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(19): view('board/boardList', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:09:58 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardList', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(19): view('board/boardList', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:09:59 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardList', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(19): view('board/boardList', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:09:59 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardList', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(19): view('board/boardList', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:10:00 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardList', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(19): view('board/boardList', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:10:00 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 7)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardList', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(19): view('board/boardList', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->index()
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:21:43 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardDetail.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 2)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardDeta...', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(31): view('board/boardDeta...', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get('1')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:21:47 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardDetail.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 2)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardDeta...', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(31): view('board/boardDeta...', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get('3')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:24:35 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardDetail.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 2)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardDeta...', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(31): view('board/boardDeta...', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get('3')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:24:37 --> Undefined variable $boardId
+#0 /Library/WebServer/Documents/phpRoot/app/Views/board/boardDetail.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Library/WebSer...', 2)
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardDeta...', Array, true)
+#4 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(31): view('board/boardDeta...', Array)
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get('3')
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#7 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#10 {main}
+CRITICAL - 2021-08-02 09:31:23 --> Object of class stdClass could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardDeta...', Array, true)
+#3 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(31): view('board/boardDeta...', Array)
+#4 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get('3')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#9 {main}
+CRITICAL - 2021-08-02 09:31:25 --> Object of class stdClass could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardDeta...', Array, true)
+#3 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(31): view('board/boardDeta...', Array)
+#4 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get('4')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#9 {main}
+CRITICAL - 2021-08-02 09:31:28 --> Object of class stdClass could not be converted to string
+#0 /Library/WebServer/Documents/phpRoot/system/View/View.php(230): include()
+#1 /Library/WebServer/Documents/phpRoot/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/phpRoot/system/Common.php(1271): CodeIgniter\View\View->render('board/boardDeta...', Array, true)
+#3 /Library/WebServer/Documents/phpRoot/app/Controllers/Board.php(31): view('board/boardDeta...', Array)
+#4 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(928): App\Controllers\Board->get('2')
+#5 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+#6 /Library/WebServer/Documents/phpRoot/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/phpRoot/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Library/WebServer/Documents/phpRoot/system/Commands/Server/rewrite.php(45): require_once('/Library/WebSer...')
+#9 {main}

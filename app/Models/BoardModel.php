@@ -1,18 +1,25 @@
 <?php
 
+namespace App\Models;
+
 use CodeIgniter\Model;
 
 class BoardModel extends Model
 {
-    protected $table = 'boards';
-    protected $allowedFields = ['title', 'contents', 'writer'];
 
-    public function getBoard()
+    // 생성자
+    function __construct()
     {
+        parent::__construct();
     }
 
-    public function create()
+    public function getList()
     {
-        $this->db->insert();
+        return $this->db->query('SELECT * FROM topic')->getResult();
+    }
+
+    public function getDetail($boardId)
+    {
+        return $this->db->query('SELECT * FROM topic WHERE id=' . $boardId)->getRow();
     }
 }
